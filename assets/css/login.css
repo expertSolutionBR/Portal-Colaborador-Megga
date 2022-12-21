@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Century Gothic';
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #fff;
+}
+.back {
+  height: calc(100vh);
+}
+.backlogo{
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back{
+    opacity: 10%;
+    height: calc(90vh);
+}
+.superior{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.area{
+    height: calc(100vh);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginarea{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(17, 35, 89);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.loginitens{
+    margin: 20px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.logo img{
+    width: 250px;
+
+}
+.titulo{
+    text-align: center;
+    color: #fff;
+}
+.titulo h1{
+    padding: 20px;
+}
+.inputs{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+#login, #senha{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 190px;
+    border: 0;
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: rgb(17, 35, 89);
+    text-transform: uppercase;
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+
+}
+#btLogar{
+    border: 0;
+    background-color: #fff;
+    color: #112359;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#btLogar:hover{
+    cursor: pointer;
+    background-color: #ac3032;
+    color: #fff;
+    font-weight: bold;
+}
+.textoValidacao{
+    color: #ac3032;
+    display: none;
+}
+.invalido{
+    color: #ac3032;
+}
